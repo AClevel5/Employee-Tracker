@@ -34,3 +34,7 @@ UPDATE employee SET manager_id = 6 WHERE id = 5;
 UPDATE employee SET manager_id = null WHERE id = 6;
 UPDATE employee SET manager_id = 8 WHERE id = 7;
 UPDATE employee SET manager_id = null WHERE id = 8;
+
+SELECT * FROM department;
+SELECT * FROM job;
+SELECT * FROM employee;
