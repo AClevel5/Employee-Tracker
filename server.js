@@ -10,8 +10,10 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+//Start the Program
 startApp();
 
+//Start Server on Port
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
